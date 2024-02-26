@@ -1,6 +1,10 @@
 {
   "app_title": "Always Worth Of Love",
   "language": "Language",
-  "navbar": "navbar",
+  "navbar": "Navbar",
   "home": "Home",
+  "resources": "Recources",
+  "about": "About",
+  "donate": "Donate",
+  "about_js": "Always worthy of love is working together to provide transitioning services for the houseless, for those leaving residential treatment, and domestic violence. Empowering people to get back into society and to safety become an active part of the community."
 }

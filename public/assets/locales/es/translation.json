@@ -1,5 +1,9 @@
 {
   "app_title": "Siempre digno de amor",
   "language": "Idioma",
-  "navbar": "barra de navegación"
+  "navbar": "Barra de navegación",
+  "home": " Pagina de inicio",
+  "resources": "Recursos",
+  "about": "Sobre",
+  "donate": "Donar"
 }
