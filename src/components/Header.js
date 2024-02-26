@@ -1,42 +1,33 @@
-// import React from "react";
-// import { useTranslation } from "react-i18next";
-// import i18next from "i18next";
+import React from 'react'
+import { useTranslation } from "react-i18next";
 
-// function Header(){
-//   const { t } = useTranslation
-//   // const languages = [
-//   //   {
-//   //     code: 'en',
-//   //     name: 'English',
-//   //     country_code: 'gb'
-//   //   },
-//   //   {
-//   //     code: 'es',
-//   //     name: 'Español',
-//   //     country_code: 'es'
-//   //   }
-//   // ]
-  
-//   // return (
-// //     <React.Fragment>
-// //       <div className="dropdown">
-// //   <button className="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-// //     Change language
-// //   </button>
-// //   <ul className="dropdown-menu">
-// //     {languages.map(({ code, name, country_code}) => (
-// //       <li key={country_code}>
-// //         <button className="dropdown-item" onClick= {() => i18next.changeLanguage(code)}>
-// //           {name}
-// //           </button>
-// //       </li>
-// //     ))}
-    
-// //   </ul>
-// // </div> 
-// // </React.Fragment> 
-// //  );
-// // }
-
-
-// export default Header;
+const Header = () => {
+  const {t}= useTranslation()
+return(
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">{t('navbar')}</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Features</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Pricing</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+);
+}
+export default Header;

@@ -2,6 +2,7 @@ import React from 'react';
 // import Header from './Header';
 import { useTranslation } from "react-i18next";
 import i18next from 'i18next'
+import Header from './Header';
 
 const languages = [
   {
@@ -55,7 +56,7 @@ aria-expanded="false">
 </div> 
 <h1>{t('app_title')}</h1>
 <hr />
-{t('navbar')}
+<Header />
 </React.Fragment> 
   );
 }
