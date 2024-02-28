@@ -39,6 +39,6 @@ ReactDOM.render(
     </React.StrictMode>
   </Suspense>,
   document.getElementById('root')
-);
+)
 
 
