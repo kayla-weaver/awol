@@ -1,4 +1,4 @@
-import React, { Suspense, startTransition } from 'react'; 
+import React, { Suspense} from 'react'; 
 import { useTranslation } from 'react-i18next';
 import Header from './Header';
 import PathControl from './PathControl';
@@ -9,6 +9,7 @@ import LanguageDetector from 'i18next-browser-languagedetector';
 import HttpApi from 'i18next-http-backend';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.js';
+import LanguageSelector from './LanguageSelector';
 
 
 i18n
@@ -41,7 +42,9 @@ function AppContent() {
   const { t } = useTranslation();
   return (
     <React.Fragment>
-      <h1>{t('app_title')}</h1> 
+      <h1>{t('app_title')} 
+      <LanguageSelector />
+      </h1> 
       <Header />
       <hr />
         <PathControl />
