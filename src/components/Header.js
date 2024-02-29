@@ -1,6 +1,6 @@
 import React from 'react';
 import { useTranslation } from "react-i18next";
-import { Link, BrowserRouter as Router } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import i18next from 'i18next';
 
 const languages = [
@@ -56,7 +56,6 @@ const LanguageSelector = () => {
 const Header = () => {
   const { t } = useTranslation();
   return (
-    <Router>
       <ul className="nav">
         <li className="nav-item">
           <Link to="/about">{t("about")}</Link>
@@ -77,7 +76,6 @@ const Header = () => {
           <LanguageSelector />
         </li>
       </ul>
-    </Router>
   );
 };
 
