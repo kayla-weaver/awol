@@ -3,7 +3,8 @@ import { useTranslation } from "react-i18next";
 import i18next from 'i18next';
 import Header from './Header';
 import PathControl from './PathControl';
-// import { createRoot } from 'react-dom';
+import { createRoot } from 'react-dom';
+
 
 const languages = [
   {
@@ -35,7 +36,7 @@ function App() {
   const { t } = useTranslation();
   return (
     <React.Fragment>
-      <div className="dropdown">
+       <div className="dropdown">
         <button
           className="btn btn-secondary dropdown-toggle"
           type="button"
@@ -53,8 +54,8 @@ function App() {
             </li>
           ))}
         </ul>
-      </div>
-      <h1>{t('app_title')}</h1>
+      </div> 
+      <h1>{t('app_title')}</h1> 
       <hr />
       <Header />
       <PathControl />
@@ -62,10 +63,10 @@ function App() {
   );
 }
 
-// document.addEventListener('DOMContentLoaded', () => {
-//   const rootElement = document.getElementById('root');
-//   createRoot(rootElement).render(<App />);
-// });
+document.addEventListener('DOMContentLoaded', () => {
+  const rootElement = document.getElementById('root');
+  createRoot(rootElement).render(<App />);
+});
 
 
 export default App;
