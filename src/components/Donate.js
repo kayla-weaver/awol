@@ -1,16 +1,20 @@
 import React from 'react'
-import { useTranslation } from "react-i18next";
-import { v4 } from 'uuid';
 import NewDonationForm from './NewDonationForm';
+import db from '../firebase.js';
+import { collection, addDoc } from "firebase/firestore";
 
-const donation = {};
-donation.id = v4()
+
+const handleAddingNewDonation = async(newDonationData) =>{
+  const collectionRef = collection(db, "donations");
+  await addDoc(collectionRef, newDonationData);
+  console.log("New donation added successfully!");
+  // setFormVisableOnPage(false);
+}
 
 const Donate = () => {
-  const { t } = useTranslation();
   return(
     <div>
-      <NewDonationForm />
+      <NewDonationForm onNewDonationCreation={handleAddingNewDonation} />
     </div>
   );
 };

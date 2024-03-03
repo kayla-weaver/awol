@@ -1,15 +1,19 @@
 import React from 'react';
 import { useTranslation } from "react-i18next";
+import PropTypes from "prop-types";
 
-function NewDonationForm(){
+
+function NewDonationForm(props){
   const { t } = useTranslation();
 
   function handleNewDontationFormSubmission(event){
     event.preventDefault();
-    console.log(event.target.names.value);
-    console.log(event.target.email.value);
-    console.log(event.target.donationItem.value);
-  }
+    props.onNewDonationCreation({
+    name: event.target.name.value,
+    email: event.target.email.value,
+    donationItem: event.target.donationItem.value,
+  });
+}
 
 
   return(
@@ -30,7 +34,11 @@ function NewDonationForm(){
         <button type ='submit'>{t("submit")}</button>
       </form>
     </React.Fragment>
-  )
+  );
+}
+
+NewDonationForm.propTypes= {
+  onNewDonationCreation: PropTypes.func
 }
 
 export default NewDonationForm
