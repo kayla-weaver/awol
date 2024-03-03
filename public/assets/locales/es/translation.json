@@ -10,6 +10,10 @@
   "about_js": "Nuestra misión es brindar de manera colaborativa servicios de transición para las personas sin hogar, las personas que abandonan el tratamiento residencial y los sobrevivientes de violencia doméstica. Empoderamos a las personas, incluido el personal entre pares que tienen experiencia de primera mano con la adicción, la recuperación o la falta de vivienda, para que se reintegren a la sociedad. Nuestro enfoque sin prejuicios garantiza su seguridad y participación activa en la comunidad. A través de soluciones duraderas, apoyamos a las personas en la transición a una vivienda estable, ofreciendo tutoría, recursos para la estabilidad de la vivienda y alimentos para fomentar una comunidad próspera e inclusiva",
   "home_js": "Pagina de inicio",
   "resources_js": "Pagina de recursos",
-  "donate_js": "Pagina de donaciones",
-  "events_js": "Pagina de eventos"
+  "events_js": "Pagina de eventos",
+  "name": "Nombre",
+  "email": "Correo electrónico",
+  "donation_item": "Que te gustaría donar",
+  "donation_item_header": "Aquí puede donar artículos, complete su información y le enviaremos un correo electrónico pronto para coordinar",
+  "submit": "Entregar"
 }

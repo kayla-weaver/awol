@@ -2,9 +2,10 @@
 import { Route, Routes } from 'react-router-dom';
 import About from './About';
 import Resources from './Resources';
-import Donate from './Donate';
+import NewDonation from './NewDonation';
 import Home from './Home';
 import Events from './Events';
+import Donate from './Donate';
 
 
 const PathControl = () => {

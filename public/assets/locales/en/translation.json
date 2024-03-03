@@ -9,8 +9,12 @@
   "events": "Events",
   "about_js": "Our mission is to collaboratively provide transitioning services for the houseless, individuals leaving residential treatment, and survivors of domestic violence. We empower people, including peer-based staff who have firsthand experience with addiction, recovery, or houselessness, to reintegrate into society. Our non-judgmental approach ensures their safety and active participation in the community. Through lasting solutions, we support individuals in transitioning into stable housing, offering mentorship, resources for housing stability, and food to foster a thriving and inclusive community.",
   "home_js": "Home page",
-  "resources_js": "Recourse page",
-  "donate_js": "Donation Page",
-  "events_js": "Event page"
+  "resources_js": "Resourse page",
+  "events_js": "Event page",
+  "name": "Name",
+  "email": "Email",
+  "donation_item": "What you would like to donate",
+  "donation_item_header": "Here you can donate items, please fill out your information and we will email you soon to coordinate",
+  "submit": "Submit"
 
 }
