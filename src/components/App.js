@@ -10,9 +10,7 @@ import HttpApi from 'i18next-http-backend';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.js';
 import LanguageSelector from './LanguageSelector';
-// import CheckoutForm from './CheckoutForm';
-// import { Elements } from '@stripe/react-stripe-js';
-// import { loadStripe } from '@stripe/stripe-js';
+
 
 
 i18n
@@ -31,20 +29,12 @@ i18n
     },
   });
 
-//   const stripePromise = loadStripe('pk_test_TYooMQauvdEDq54NiTphI7jx');
 
 
 function App() {
-//   const options = {
-//     // passing the client secret obtained from the Stripe Dashboard
-//     clientSecret: '{{CLIENT_SECRET}}',
-//   };
   return (
     <BrowserRouter>
       <Suspense fallback={<div>Loading...</div>}> 
-      {/* <Elements stripe={stripePromise}>
-      <CheckoutForm />
-    </Elements> */}
         <AppContent />
       </Suspense>
     </BrowserRouter>
@@ -55,9 +45,9 @@ function AppContent() {
   const { t } = useTranslation();
   return (
     <React.Fragment>
-      <h1>{t('app_title')} 
+      <h1><b>{t('app_title')}</b></h1> 
+      <h2><i>{t("app_subtitle")}</i></h2> 
       <LanguageSelector />
-      </h1> 
       <Header />
       <hr />
         <PathControl />

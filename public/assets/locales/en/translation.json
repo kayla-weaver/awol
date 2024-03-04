@@ -1,20 +1,30 @@
 {
   "app_title": "Always Worth Of Love",
+  "app_subtitle": "A safe place for all to find help",
   "language": "Language",
   "navbar": "Navbar",
   "home": "Home",
-  "resources": "Recources",
+  "resources": "Resources",
   "about": "About",
   "donate": "Donate",
   "events": "Events",
   "about_js": "Our mission is to collaboratively provide transitioning services for the houseless, individuals leaving residential treatment, and survivors of domestic violence. We empower people, including peer-based staff who have firsthand experience with addiction, recovery, or houselessness, to reintegrate into society. Our non-judgmental approach ensures their safety and active participation in the community. Through lasting solutions, we support individuals in transitioning into stable housing, offering mentorship, resources for housing stability, and food to foster a thriving and inclusive community.",
   "home_js": "Home page",
-  "resources_js": "Resourse page",
+  "resources_js": "Resource page",
   "events_js": "Event page",
   "name": "Name",
   "email": "Email",
   "donation_item": "What you would like to donate",
   "donation_item_header": "Here you can donate items, please fill out your information and we will email you soon to coordinate",
-  "submit": "Submit"
+  "submit": "Submit",
+  "housing":"Housing",
+  "treatment":"Treatment",
+  "food":"Food",
+  "shelters":"Shelters",
+  "warming_shelters":"Warming Shelters",
+  "transportation": "Transportation",
+  "clothing":"Clothing",
+  "email_to_donate": "If you would like to email us about a donatation, please",
+  "click_here": "click here"
 
 }

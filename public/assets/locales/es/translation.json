@@ -1,5 +1,6 @@
 {
   "app_title": "Siempre digno de amor",
+  "app_subtitle": "Un lugar seguro para que todos encuentren ayuda",
   "language": "Idioma",
   "navbar": "Barra de navegación",
   "home": " Pagina de inicio",
@@ -15,5 +16,14 @@
   "email": "Correo electrónico",
   "donation_item": "Que te gustaría donar",
   "donation_item_header": "Aquí puede donar artículos, complete su información y le enviaremos un correo electrónico pronto para coordinar",
-  "submit": "Entregar"
+  "submit": "Entregar",
+  "housing":"Alojamiento",
+  "treatment":"Tratamiento",
+  "food":"Comida",
+  "shelters":"Refugios",
+  "warming_shelters":"Refugios calentadores",
+  "transportation": "Transporte",
+  "clothing":"Ropa",
+  "email_to_donate": "Si desea enviarnos un correo electrónico acerca de una donación, por favor",
+  "click_here": "haga clic aquí"
 }
