@@ -10,6 +10,7 @@ import HttpApi from 'i18next-http-backend';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.js';
 import LanguageSelector from './LanguageSelector';
+import Footer from './Footer';
 
 
 
@@ -51,6 +52,7 @@ function AppContent() {
       <Header />
       <hr />
         <PathControl />
+        <Footer />
     </React.Fragment>
   );
 }

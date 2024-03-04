@@ -18,7 +18,7 @@ function NewDonationForm(props){
 
   return(
     <React.Fragment>
-      <h3>{t("donation_item_header")}</h3>
+      <h6>{t("donation_item_header")}</h6>
       <form onSubmit={handleNewDontationFormSubmission}>
         <input
           type= 'text'
@@ -28,7 +28,8 @@ function NewDonationForm(props){
           type= 'text'
           name= 'email'
           placeholder= {t("email")} />
-        <textarea
+        <input
+          type= 'text'
           name= 'donationItem'
           placeholder= {t("donation_item")} />
         <button type ='submit'>{t("submit")}</button>

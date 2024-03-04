@@ -12,11 +12,12 @@ const Contact = () => {
   return (
     <div className="ComponentHeader">
       <p>
+        <h1>
         {t("email_to_donate")}{' '}
         <span style={{ color: 'blue', cursor: 'pointer' }} onClick={handleEmailLinkClick}>
           {t("click_here")}
         </span>
-        .
+        </h1>
       </p>
     </div>
   );
