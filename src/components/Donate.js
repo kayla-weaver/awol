@@ -14,7 +14,6 @@ const handleAddingNewDonation = async(newDonationData) =>{
 const Donate = () => {
   return(
     <div>
-      <Contact />
       <NewDonationForm onNewDonationCreation={handleAddingNewDonation} />
     </div>
   );
