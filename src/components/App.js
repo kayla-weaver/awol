@@ -51,8 +51,8 @@ function AppContent() {
       <LanguageSelector />
       <Header />
       <hr />
-        <PathControl />
-        <Footer />
+      <PathControl />
+      <Footer />
     </React.Fragment>
   );
 }

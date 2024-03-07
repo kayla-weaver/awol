@@ -1,5 +1,6 @@
 import React from 'react';
 import { useTranslation } from "react-i18next";
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   const { t } = useTranslation();
@@ -28,11 +29,30 @@ const Footer = () => {
             <div className="content">
             <div className="ComponentHeader">
       <p>
-        {t("contact")}{' '}
+        <h3>{t("contact")}{' '}
         <span style={{ color: 'blue', cursor: 'pointer' }} onClick={handleEmailLinkClick}>
           {t("click_here")}
         </span>
+        </h3>
       </p>
+      <ul className="nav">
+        <li className="nav-item2">
+          <Link to="/about">{t("about")}</Link>
+        </li> 
+        <li className="nav-item2">
+          <Link to="/resources">{t("resources")}</Link>
+        </li>
+        <li className="nav-item2">
+          <Link to="/donate">{t("donate")}</Link>
+        </li>
+        <li className="nav-item2">
+          <Link to="/home">{t("home")}</Link>
+        </li>
+        <li className="nav-item2">
+          <Link to="/events">{t("events")}</Link>
+        </li>
+      </ul>
+      <p>© Made with ♥ by Kayla Weaver 2024 ©</p>
     </div>
               
             </div>

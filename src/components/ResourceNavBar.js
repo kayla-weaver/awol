@@ -27,8 +27,6 @@ const ResourceNavBar = () => {
         <li className="nav-item">
           <Link to="/clothing">{t("clothing")}</Link>
         </li>
-        <li className="nav-item">
-        </li>
       </ul>
   );
 };

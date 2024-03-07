@@ -22,8 +22,6 @@ const Header = () => {
         <li className="nav-item">
           <Link to="/events">{t("events")}</Link>
         </li>
-        <li className="nav-item">
-        </li>
       </ul>
   );
 };

@@ -2,7 +2,6 @@ import React from 'react'
 import NewDonationForm from './NewDonationForm';
 import db from '../firebase.js';
 import { collection, addDoc } from "firebase/firestore";
-import Contact from './Contact.js';
 
 
 const handleAddingNewDonation = async(newDonationData) =>{
