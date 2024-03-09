@@ -17,6 +17,7 @@ import Clothing from "./Clothing";
 const PathControl = () => {
   return (
       <Routes>
+        <Route path="/" element={<Home />} />
         <Route path="/home" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/resources" element={<Resources />} />
