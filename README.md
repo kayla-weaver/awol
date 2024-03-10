@@ -1,6 +1,6 @@
 # Always Worthy Of Love
 
-##Description:
+## Description:
 A react based application to provide resources for people in our community and for others to volunteer time or donate to contribute. 
 
 ### Command line Setup and Installation:
