@@ -28,13 +28,11 @@ const Footer = () => {
             </div>
             <div className="content">
             <div className="ComponentHeader">
-      <p>
-        <h3>{t("contact")}{' '}
+        <p>{t("contact")}{' '}
         <span style={{ color: 'blue', cursor: 'pointer' }} onClick={handleEmailLinkClick}>
           {t("click_here")}
         </span>
-        </h3>
-      </p>
+        </p>
       <ul className="nav">
         <li className="nav-item2">
           <Link to="/home">{t("home")}</Link>
