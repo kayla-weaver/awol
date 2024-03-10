@@ -37,6 +37,9 @@ const Footer = () => {
       </p>
       <ul className="nav">
         <li className="nav-item2">
+          <Link to="/home">{t("home")}</Link>
+        </li>
+        <li className="nav-item2">
           <Link to="/about">{t("about")}</Link>
         </li> 
         <li className="nav-item2">
@@ -44,9 +47,6 @@ const Footer = () => {
         </li>
         <li className="nav-item2">
           <Link to="/donate">{t("donate")}</Link>
-        </li>
-        <li className="nav-item2">
-          <Link to="/home">{t("home")}</Link>
         </li>
         <li className="nav-item2">
           <Link to="/events">{t("events")}</Link>

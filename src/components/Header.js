@@ -8,6 +8,9 @@ const Header = () => {
   return (
       <ul className="nav">
         <li className="nav-item">
+          <Link to="/home">{t("home")}</Link>
+        </li>
+        <li className="nav-item">
           <Link to="/about">{t("about")}</Link>
         </li> 
         <li className="nav-item">
@@ -15,9 +18,6 @@ const Header = () => {
         </li>
         <li className="nav-item">
           <Link to="/donate">{t("donate")}</Link>
-        </li>
-        <li className="nav-item">
-          <Link to="/home">{t("home")}</Link>
         </li>
         <li className="nav-item">
           <Link to="/events">{t("events")}</Link>
